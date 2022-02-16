@@ -9,8 +9,6 @@ import com.mnstarfire.loaders3d.Inspector3DS;
 public class Object_3D extends TransformGroup {
 	private final Inspector3DS loader;
 	private static TransformGroup theModel;
-
-	// private static final String stdPath = "/home/ws04ba19/cgr2004/City/models/";
 	private static final String stdPath = "/City/models";
 
 	public Object_3D(final String Model) {
